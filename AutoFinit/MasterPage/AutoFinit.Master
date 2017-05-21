@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AutoFinit.master.cs" Inherits="AutoFinit.AutoFinit" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="icon" type="image/x-icon" href="~/Images/favicon.ico" />
+        <link rel="stylesheet" href="~/Lib/Bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/Css/Styles.css" />
+        <title>AutoFinit</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="InicioPages.aspx">AutoFinit</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="InicioPages.aspx">Inicio</a></li>
+                <li><a href="AutomatasFinitos.aspx">Automatas Finitos</a></li>
+                <li><a href="IntegrantesPages.aspx">Integrantes</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <form id="form1" runat="server">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+
+        <div class="centrado">
+            <label style="font-size:13px;">
+                Copyright 2017 Felix M.P.  Alexander N.G.  Victor E.B.
+            </label>
+        </div>
+
+        <script src="~/Js/jquery-1.12.4.js"></script>
+        <script src="~/Lib/Bootstrap/js/bootstrap.min.js"></script>
+        <script src="~/Js/docs.min.js"></script>
+    </body>
+</html>

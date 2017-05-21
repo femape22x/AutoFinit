@@ -1,0 +1,45 @@
+﻿body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+h1 {
+    color: #428BCA;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h4 {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Lib/Ubuntu/Ubuntu-B.ttf') format('truetype');
+}
+
+p {
+    text-align: justify;
+}
+
+.centrado {
+    text-align: center;
+}
